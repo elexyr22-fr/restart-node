@@ -10,9 +10,12 @@ User: `root`
 nano /etc/pterodactyl/config.yml
 ```
 
-3) Remplace le port **443** par `8080`
+3) Remplace le port **443** par:
+```
+8080
+```
 
-4) Ensuite tape:
+5) Ensuite tape:
 
 ```
 reboot -f
